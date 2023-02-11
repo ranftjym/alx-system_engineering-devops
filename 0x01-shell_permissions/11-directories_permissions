@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R   +111  */
+find . -type d -exec chmod u+x,g+x,o+x {} +
